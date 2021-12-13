@@ -19,9 +19,6 @@ def set_iface():
     if interface.lower() == 'static':
         # ask for the address and subnet
         pass
-    elif interface.lower() == 'dhcp':
-        # use netsh to set interface to dhcp
-        pass
 
 def set_static(address, subnet):
     """
